@@ -1,6 +1,6 @@
-import React from 'react';
-import { companyInfo } from '../data';
-import './Hero.css';
+import React from "react";
+import { companyInfo } from "../data";
+import "./Hero.css";
 
 const Hero = () => {
   return (
@@ -9,10 +9,14 @@ const Hero = () => {
         <h1 className="hero-title">{companyInfo.name}</h1>
         <p className="hero-statement">{companyInfo.valueStatement}</p>
         <p className="hero-intro">{companyInfo.introduction}</p>
-        
+
         <div className="hero-actions">
-          <a href="#projects" className="btn btn-secondary">View projects</a>
-          <a href="#contact" className="btn">Start a project</a>
+          <a href="#projects" className="btn btn-secondary">
+            View projects
+          </a>
+          <a href="#contact" className="btn">
+            Get in Touch
+          </a>
         </div>
       </div>
     </section>
