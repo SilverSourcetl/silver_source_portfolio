@@ -1,14 +1,14 @@
 export const companyInfo = {
   name: "Silversource",
   valueStatement: "Empowering your business with custom software services.",
-  introduction: "We are a software services organisation founded by two IT technicians, dedicated to delivering robust and scalable solutions.",
+  introduction: "We are a software services organisation founded by Tumelo Lutaka and Darryll Siame, dedicated to delivering robust and scalable solutions.",
   serviceArea: "Global",
   email: "hello@silversource.example.com",
 };
 
 export const founders = [
   {
-    name: "Founder One",
+    name: "Tumelo Lutaka",
     role: "Technical Lead",
     biography: "An experienced IT technician with a passion for building scalable web applications and optimizing workflows.",
     skills: ["React", "Node.js", "Cloud Architecture"],
@@ -18,7 +18,7 @@ export const founders = [
     ],
   },
   {
-    name: "Founder Two",
+    name: "Darryll Siame",
     role: "Content and Client Lead",
     biography: "A strategic thinker focused on delivering client value through clear communication and effective project management.",
     skills: ["Project Management", "Client Relations", "Technical Writing"],
